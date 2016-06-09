@@ -1,0 +1,29 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view view-title="Editar broma: '{{joke.title}}'">
+  <ion-content class="padding">
+    <form ng-submit="actualizabroma(joke)">
+    <div class="list">
+      <!--<p>
+        Editar broma {{joke.id}}
+      </p>
+      <p>-->
+        Fecha: {{joke.createdAt}}
+      </p>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Broma</span>
+        <input type="text" ng-model="joke.title" placeholder="¿Está el señor Partes? De nombre Mis.">
+      </label>
+    </div>  
+    <div align=center>
+      <button class="button button-energized">
+        Actualizar Broma
+      </button>
+    </form>
+    </div>
+  </ion-content>
+</ion-view>

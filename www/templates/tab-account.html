@@ -1,0 +1,21 @@
+<ion-view view-title="Crear Broma">
+  <ion-content>
+    <form ng-submit="guardabroma(broma)">
+    <div class="list">
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Creador</span>
+        <input type="text"  ng-model="broma.creador" placeholder="Bart">
+      </label>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Broma</span>
+        <input type="text" ng-model="broma.titulo" placeholder="¿Está el señor Partes? De nombre Mis.">
+      </label>
+    </div>
+    <div align=center>
+      <button class="button button-energized">
+        Enviar Broma
+      </button>
+    </form>
+    </div>
+  </ion-content>
+</ion-view>

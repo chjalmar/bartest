@@ -1,0 +1,19 @@
+<ion-view view-title="Bromas">
+  <ion-content>
+    <div id="jokegraph">
+    	<canvas id="myChart" width=400 height=400></canvas>
+    </div>	
+    <div id="jokelist">  
+      <ion-list>
+        <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="joke in jokes" type="item-text-wrap" href="#/tab/jokes/{{joke.id}}">
+          <h2>{{joke.title}}</h2>
+          <p>Creado/última Actualización: {{joke.updatedAt}}</p>
+          <i class="icon ion-chevron-right icon-accessory"></i>
+          <ion-option-button class="button-assertive" ng-click="remove(joke)">
+            Delete
+          </ion-option-button>
+        </ion-item>
+      </ion-list>
+    </div>  
+  </ion-content>
+</ion-view>

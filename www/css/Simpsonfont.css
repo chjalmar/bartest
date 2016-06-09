@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Simpsonfont';
+    src: url('../fonts/Simpsonfont.eot');
+    src: url('../fonts/Simpsonfont.eot') format('embedded-opentype'),
+         url('../fonts/Simpsonfont.woff2') format('woff2'),
+         url('../fonts/Simpsonfont.woff') format('woff'),
+         url('../fonts/Simpsonfont.ttf') format('truetype'),
+         url('../fonts/Simpsonfont.svg#Simpsonfont') format('svg');
+}
