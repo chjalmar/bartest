@@ -28,5 +28,5 @@ $ ionic run android
 ###Propósito
 
 El propósito de esta app fue probar la posibilidad de implementar sails.io.js desde una app en Ionic/Cordova, de manera que pudiesen desarrollarse simultáneamente una App Móvil y un frontend Web.
-El servidor ya no se encuentra disponible así que la aplicación no funcionará, pero el código muestra como utilizar de una forma básica el cliente Sails para conectarse a un servidor que sólo acepta conexiones por socket.
+El servidor ya no se encuentra disponible así que la aplicación no funcionará, pero el código muestra cómo utilizar de una forma básica el cliente Sails para conectarse a un servidor que sólo acepta conexiones por socket.
 
